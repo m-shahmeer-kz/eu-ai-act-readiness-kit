@@ -1,0 +1,2581 @@
+{
+ "summary": {
+  "split": "holdout",
+  "cases": 166,
+  "answered": 166,
+  "missing": [],
+  "verdict_correct": 161,
+  "accuracy": 0.97,
+  "high_risk_cases": 64,
+  "high_risk_caught": 64,
+  "high_risk_missed": 0,
+  "not_high_risk_cases": 102,
+  "false_alarms": 5,
+  "reason_correct_when_verdict_correct": 145,
+  "by_area": {
+   "education": "29/31",
+   "essential-services": "47/49",
+   "horizontal": "12/13",
+   "justice-democracy": "27/27",
+   "migration": "46/46"
+  },
+  "source": "https://ai-act-service-desk.ec.europa.eu/en/"
+ },
+ "rows": [
+  {
+   "id": "edu01",
+   "area": "education",
+   "point": "3(a)",
+   "description": "Automated admissions system that reviews applications, transcripts and test scores to determine eligibility for a university.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "3(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Decides university admission by evaluating each applicant's record; profiling of academic performance, no filter."
+  },
+  {
+   "id": "edu02",
+   "area": "education",
+   "point": "3(a)",
+   "description": "School assignment system that places students in public schools using address, catchment zones, capacity, siblings and commuting distance.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "3(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Assigns students to public schools; applies objective allocation criteria rather than evaluating personal aspects, but decides assignment."
+  },
+  {
+   "id": "edu03",
+   "area": "education",
+   "point": "3(a)",
+   "description": "Tool that matches applicants to apprenticeships using prior records, certifications and aptitude tests.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "3(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Assigns applicants to apprenticeship programmes from records and aptitude tests; evaluates individuals."
+  },
+  {
+   "id": "edu04",
+   "area": "education",
+   "point": "3(a)",
+   "description": "Automated scholarship eligibility assessment based on an applicant's income, expenses and family size.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "3(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Scholarship eligibility determines access to education and evaluates the applicant's economic situation (could also be 5(a) if run for a public authority)."
+  },
+  {
+   "id": "edu05",
+   "area": "education",
+   "point": "3(b)",
+   "description": "AI grading and feedback system that evaluates tests and exams that count toward a student's final evaluation.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "3(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Grades exams that count toward final evaluation: evaluates learning outcomes."
+  },
+  {
+   "id": "edu06",
+   "area": "education",
+   "point": "3(b)",
+   "description": "Personalised learning assistant that generates end-of-unit reports with grades that teachers use for end-of-period grades.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "3(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Generates graded reports teachers use for period grades: evaluates learning outcomes."
+  },
+  {
+   "id": "edu07",
+   "area": "education",
+   "point": "3(c)",
+   "description": "Adaptive placement tool that assesses incoming students and recommends beginner, intermediate or advanced classes.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "3(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Assesses incoming students and recommends the class level they access."
+  },
+  {
+   "id": "edu08",
+   "area": "education",
+   "point": "3(c)",
+   "description": "Vocational training system uses placement tests to determine eligibility for a study level.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "3(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Placement tests decide eligibility for a study level: appropriate level of education."
+  },
+  {
+   "id": "edu09",
+   "area": "education",
+   "point": "3(c)",
+   "description": "AI that places students with special educational needs into programmes and recommends the level of support.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "3(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Places SEN students into programmes and recommends support from individual needs (health/disability)."
+  },
+  {
+   "id": "edu10",
+   "area": "education",
+   "point": "3(d)",
+   "description": "AI proctoring for certification exams that monitors test-takers with facial recognition, keystroke analysis and screen monitoring to detect cheating.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "3(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Proctoring monitors test-takers' behaviour to detect cheating; face recognition here is verification, not 1(a)."
+  },
+  {
+   "id": "edu11",
+   "area": "education",
+   "point": "3(d)",
+   "description": "Real-time behaviour analysis that detects patterns indicating cheating during online exams.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "3(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Real-time behaviour analysis to detect cheating during exams."
+  },
+  {
+   "id": "edu12",
+   "area": "education",
+   "point": "3(d)",
+   "description": "In-person exam monitoring that uses object detection to spot unauthorised devices.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "3(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Detects prohibited devices during tests; object-level detection is not profiling but flags individuals."
+  },
+  {
+   "id": "edu13",
+   "area": "education",
+   "point": "3(a)",
+   "description": "Platform recommends university programmes to secondary students based on their own stated preferences.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Recommendations only to the student from their own preferences; no effect on access or assessment."
+  },
+  {
+   "id": "edu14",
+   "area": "education",
+   "point": "3(a)",
+   "description": "University chatbot answers prospective students' general questions about admission requirements.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "General admissions FAQ chatbot; no decision about a person."
+  },
+  {
+   "id": "edu15",
+   "area": "education",
+   "point": "3(a)",
+   "description": "System that indexes, translates and organises application files for the admissions office.",
+   "official": "not",
+   "official_reason": "6.3d",
+   "skill": "not",
+   "skill_reason": "6.3d",
+   "skill_points": [
+    "3(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Indexing/translating/organising admission files is preparatory to the admission decision."
+  },
+  {
+   "id": "edu16",
+   "area": "education",
+   "point": "3(a)",
+   "description": "Tool that reviews past admissions committee decisions for quality control.",
+   "official": "not",
+   "official_reason": "6.3c",
+   "skill": "not",
+   "skill_reason": "6.3c",
+   "skill_points": [
+    "3(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Quality review of past admissions decisions after humans decided."
+  },
+  {
+   "id": "edu17",
+   "area": "education",
+   "point": "3(a)",
+   "description": "Tool that categorises incoming applications, extracts data and flags duplicates, without admission decisions.",
+   "official": "not",
+   "official_reason": "6.3a",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "3(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Categorising, extracting data and de-duplicating applications is a narrow procedural task."
+  },
+  {
+   "id": "edu18",
+   "area": "education",
+   "point": "3(b)",
+   "description": "Language learning app gives voluntary feedback to learners, with no credential or grade.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Voluntary learner feedback with no credential or grade; outside 3(b)."
+  },
+  {
+   "id": "edu19",
+   "area": "education",
+   "point": "3(b)",
+   "description": "Learning companion adapts materials and pace for neurodiverse learners; not used for grades.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Adapts materials for learners and is not used for grades or access; treated as outside 3(b) (borderline: 'steer the learning process')."
+  },
+  {
+   "id": "edu20",
+   "area": "education",
+   "point": "3(b)",
+   "description": "Pronunciation feedback tool used only by learners themselves.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Self-use pronunciation feedback with no assessment effect."
+  },
+  {
+   "id": "edu21",
+   "area": "education",
+   "point": "3(b)",
+   "description": "AI checks a teacher's exam paper for ambiguity and rubric consistency and suggests revisions.",
+   "official": "not",
+   "official_reason": "6.3b",
+   "skill": "not",
+   "skill_reason": "6.3b",
+   "skill_points": [
+    "3(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Improves a teacher's completed exam paper (ambiguity/rubric) without assessing students."
+  },
+  {
+   "id": "edu22",
+   "area": "education",
+   "point": "3(b)",
+   "description": "Grade calculator computes the weighted average of grades the teacher already gave.",
+   "official": "not",
+   "official_reason": "6.3a",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "3(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Mechanical weighted average of grades already given by the teacher."
+  },
+  {
+   "id": "edu23",
+   "area": "education",
+   "point": "3(b)",
+   "description": "Tool flags deviations in instructors' grading patterns for a human assessor to review.",
+   "official": "not",
+   "official_reason": "6.3c",
+   "skill": "not",
+   "skill_reason": "6.3c",
+   "skill_points": [
+    "3(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Detects deviations in past grading patterns for human review."
+  },
+  {
+   "id": "edu24",
+   "area": "education",
+   "point": "3(c)",
+   "description": "Course recommendation app students use themselves to plan their studies from their own inputs.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Student's own study-planning tool from own inputs."
+  },
+  {
+   "id": "edu25",
+   "area": "education",
+   "point": "3(c)",
+   "description": "Analysis of national education attainment trends for policymakers.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Aggregate national attainment analysis; no individuals."
+  },
+  {
+   "id": "edu26",
+   "area": "education",
+   "point": "3(c)",
+   "description": "Tool generates questions for educators to assess a student's readiness themselves.",
+   "official": "not",
+   "official_reason": "6.3d",
+   "skill": "not",
+   "skill_reason": "6.3d",
+   "skill_points": [
+    "3(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Generates question material for educators who assess readiness themselves; preparatory."
+  },
+  {
+   "id": "edu27",
+   "area": "education",
+   "point": "3(c)",
+   "description": "Tool analyses tutors' past course-level recommendations and suggests methodology improvements.",
+   "official": "not",
+   "official_reason": "6.3b",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": false,
+   "agent_reasoning": "Reviews tutors' course-level methodology, not students' access or assessment."
+  },
+  {
+   "id": "edu28",
+   "area": "education",
+   "point": "3(d)",
+   "description": "Plagiarism checker compares submitted homework against existing content.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "3(b)"
+   ],
+   "verdict_ok": false,
+   "reason_ok": false,
+   "agent_reasoning": "Plagiarism detection on assessed homework flags individual students and can change their evaluation."
+  },
+  {
+   "id": "edu29",
+   "area": "education",
+   "point": "3(d)",
+   "description": "Cameras in school cafeterias and hallways alert staff to bullying (no biometric identification).",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Bullying alerts in hallways are not test monitoring or other point 3 purposes; no biometric identification."
+  },
+  {
+   "id": "edu30",
+   "area": "education",
+   "point": "3(d)",
+   "description": "AI helps a human proctor confirm or deny already suspected cheating by analysing the flagged student's data; the proctor decides.",
+   "official": "not",
+   "official_reason": "6.3b",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "3(d)"
+   ],
+   "verdict_ok": false,
+   "reason_ok": false,
+   "agent_reasoning": "Analyses a student's data to confirm cheating during tests; human deciding does not remove influence."
+  },
+  {
+   "id": "edu31",
+   "area": "education",
+   "point": "3(d)",
+   "description": "AI checks ID documents or a face scan to confirm the test-taker is the registered candidate; the proctor decides on admission.",
+   "official": "not",
+   "official_reason": "6.3a",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "3(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "1:1 identity verification of test-taker (not 1(a)); factual yes/no check supporting test integrity."
+  },
+  {
+   "id": "ess01",
+   "area": "essential-services",
+   "point": "5(a)",
+   "description": "Public system analyses unemployment benefit eligibility, period and amount and recommends a decision to a case handler.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Public benefit eligibility/amount recommendation for a case handler."
+  },
+  {
+   "id": "ess02",
+   "area": "essential-services",
+   "point": "5(a)",
+   "description": "Social benefit eligibility assessment cross-references external databases and generates a decision.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Generates social benefit eligibility decisions."
+  },
+  {
+   "id": "ess03",
+   "area": "essential-services",
+   "point": "5(a)",
+   "description": "Scoring system for social housing or unemployment benefits predicts fraud or long-term dependency from personal data.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Scores benefit applicants for fraud/dependency; the fraud exception exists only in 5(b)."
+  },
+  {
+   "id": "ess04",
+   "area": "essential-services",
+   "point": "5(a)",
+   "description": "Ranks social housing applicants by eligibility and urgency.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Ranks social housing applicants by eligibility and urgency."
+  },
+  {
+   "id": "ess05",
+   "area": "essential-services",
+   "point": "5(a)",
+   "description": "Prioritises allocation of limited in-home care hours among eligible persons.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Prioritises allocation of public care hours among individuals (grants/reduces benefits)."
+  },
+  {
+   "id": "ess06",
+   "area": "essential-services",
+   "point": "5(a)",
+   "description": "Prioritises unemployment or income support applications when resources are limited.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Prioritises income-support applications."
+  },
+  {
+   "id": "ess07",
+   "area": "essential-services",
+   "point": "5(a)",
+   "description": "Flags sickness benefit applications with fraud indicators for human investigation.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Flags individual benefit applicants for fraud investigation (revoke/reclaim)."
+  },
+  {
+   "id": "ess08",
+   "area": "essential-services",
+   "point": "5(a)",
+   "description": "Chatbot gives case-specific legal answers to a case handler deciding on care benefit eligibility.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Case-specific legal answers evaluate the concrete case for the eligibility decision."
+  },
+  {
+   "id": "ess09",
+   "area": "essential-services",
+   "point": "5(a)",
+   "description": "Preliminary assessment decides whether a public healthcare application goes to an external in-depth examination.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Preliminary assessment decides the path of a public healthcare application."
+  },
+  {
+   "id": "ess10",
+   "area": "essential-services",
+   "point": "5(a)",
+   "description": "Public health authority evaluates eligibility and sends personalised preventive screening invitations.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Evaluates eligibility for public preventive healthcare services."
+  },
+  {
+   "id": "ess11",
+   "area": "essential-services",
+   "point": "5(a)",
+   "description": "Identifies persons who may need preventive care, without determining eligibility or access.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Identifies persons who may need care without determining eligibility or access; outside 5(a) wording."
+  },
+  {
+   "id": "ess12",
+   "area": "essential-services",
+   "point": "5(a)",
+   "description": "Matches people to public support services using anonymised data and pre-fills their applications.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "6.3d",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": false,
+   "agent_reasoning": "Matching on anonymised data and pre-filling applications is preparatory to the eligibility decision."
+  },
+  {
+   "id": "ess13",
+   "area": "essential-services",
+   "point": "5(a)",
+   "description": "Recommends which department or official should assess a benefit application.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": false,
+   "agent_reasoning": "Routes applications to the right department; procedural."
+  },
+  {
+   "id": "ess14",
+   "area": "essential-services",
+   "point": "5(a)",
+   "description": "Assesses reimbursement claims from companies (not natural persons).",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Claims from companies, not natural persons."
+  },
+  {
+   "id": "ess15",
+   "area": "essential-services",
+   "point": "5(a)",
+   "description": "Chatbot answers factual questions for a case handler, such as an applicant's age.",
+   "official": "not",
+   "official_reason": "6.3a",
+   "skill": "not",
+   "skill_reason": "6.3d",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Retrieves factual record data for the case handler."
+  },
+  {
+   "id": "ess16",
+   "area": "essential-services",
+   "point": "5(a)",
+   "description": "Summarises medical reports for a case handler's benefit decision.",
+   "official": "not",
+   "official_reason": "6.3d",
+   "skill": "not",
+   "skill_reason": "6.3d",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Neutral summary of medical reports for the case handler."
+  },
+  {
+   "id": "ess17",
+   "area": "essential-services",
+   "point": "5(a)",
+   "description": "Translates foreign-language benefit applications.",
+   "official": "not",
+   "official_reason": "6.3d",
+   "skill": "not",
+   "skill_reason": "6.3d",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Translation of benefit applications."
+  },
+  {
+   "id": "ess18",
+   "area": "essential-services",
+   "point": "5(a)",
+   "description": "Speech-to-text summary of a case handler-applicant conversation, verified by the case handler.",
+   "official": "not",
+   "official_reason": "6.3d",
+   "skill": "not",
+   "skill_reason": "6.3d",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Transcription/summary verified by the case handler."
+  },
+  {
+   "id": "ess19",
+   "area": "essential-services",
+   "point": "5(b)",
+   "description": "Creates a creditworthiness score from payment behaviour and income to support consumer credit or mortgage decisions.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Creditworthiness score for consumer credit."
+  },
+  {
+   "id": "ess20",
+   "area": "essential-services",
+   "point": "5(b)",
+   "description": "Credit agency score about individuals shared with third parties deciding on loans, housing or telecom access.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Credit score of individuals shared with third parties."
+  },
+  {
+   "id": "ess21",
+   "area": "essential-services",
+   "point": "5(b)",
+   "description": "Bank customer classification for personalised marketing, not part of creditworthiness.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Marketing segmentation, not creditworthiness."
+  },
+  {
+   "id": "ess22",
+   "area": "essential-services",
+   "point": "5(b)",
+   "description": "Customer segmentation and pricing simulations at an early product-design step.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Aggregate segmentation/simulation at product-design stage."
+  },
+  {
+   "id": "ess23",
+   "area": "essential-services",
+   "point": "5(b)",
+   "description": "Customer support chatbot explains credit application forms; not used in scoring.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Explains forms; not used in scoring."
+  },
+  {
+   "id": "ess24",
+   "area": "essential-services",
+   "point": "5(b)",
+   "description": "Complaint handling after a loan decision has been made.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Complaint handling after the credit decision; no creditworthiness evaluation."
+  },
+  {
+   "id": "ess25",
+   "area": "essential-services",
+   "point": "5(b)",
+   "description": "Internal monitoring of credit exposure after credit is granted.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Portfolio credit exposure monitoring after granting."
+  },
+  {
+   "id": "ess26",
+   "area": "essential-services",
+   "point": "5(b)",
+   "description": "Evaluates the value of collateral assets only.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Values assets, not persons."
+  },
+  {
+   "id": "ess27",
+   "area": "essential-services",
+   "point": "5(b)",
+   "description": "Margin credit assessment for leveraged trading.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(b)"
+   ],
+   "verdict_ok": false,
+   "reason_ok": false,
+   "agent_reasoning": "Assesses an individual's creditworthiness for margin lending (conservative)."
+  },
+  {
+   "id": "ess28",
+   "area": "essential-services",
+   "point": "5(c)",
+   "description": "Reviews life insurance applications using age, health and family history to set acceptance and conditions.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Life insurance risk assessment and acceptance from health data."
+  },
+  {
+   "id": "ess29",
+   "area": "essential-services",
+   "point": "5(c)",
+   "description": "Predicts expected annual medical cost of a risk group to set health insurance premiums.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Health insurance pricing via risk-group cost; group-level so not profiling, but sets premiums for natural persons."
+  },
+  {
+   "id": "ess30",
+   "area": "essential-services",
+   "point": "5(c)",
+   "description": "Health insurance claims management: validating claims and setting payouts.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Claims management/payouts is not risk assessment or pricing under 5(c)."
+  },
+  {
+   "id": "ess31",
+   "area": "essential-services",
+   "point": "5(c)",
+   "description": "Validates claimant information against databases to speed up claims processing.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Claims data validation; not risk assessment or pricing."
+  },
+  {
+   "id": "ess32",
+   "area": "essential-services",
+   "point": "5(c)",
+   "description": "Life insurance product design without individual risk assessment.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Product design without individual risk assessment."
+  },
+  {
+   "id": "ess33",
+   "area": "essential-services",
+   "point": "5(d)",
+   "description": "NLP classifies 112 emergency calls by urgency and routes responders.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Classifies emergency calls by urgency and routes responders."
+  },
+  {
+   "id": "ess34",
+   "area": "essential-services",
+   "point": "5(d)",
+   "description": "Police system analyses emergency calls and prioritises interventions by urgency.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Prioritises police interventions from emergency calls."
+  },
+  {
+   "id": "ess35",
+   "area": "essential-services",
+   "point": "5(d)",
+   "description": "Real-time assistant listens to emergency calls for signs of life-threatening situations and helps classify severity.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Helps classify severity of emergency calls."
+  },
+  {
+   "id": "ess36",
+   "area": "essential-services",
+   "point": "5(d)",
+   "description": "Queued emergency calls are screened to flag life-threatening ones for the call-taker.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Flags life-threatening calls in the queue (prioritisation)."
+  },
+  {
+   "id": "ess37",
+   "area": "essential-services",
+   "point": "5(d)",
+   "description": "Emergency department system prioritises patients (triage) without clinical diagnosis.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Emergency department patient triage."
+  },
+  {
+   "id": "ess38",
+   "area": "essential-services",
+   "point": "5(d)",
+   "description": "Chatbot in a medical institution triggers emergency medical services.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Triggers emergency medical dispatch from patient interaction."
+  },
+  {
+   "id": "ess39",
+   "area": "essential-services",
+   "point": "5(d)",
+   "description": "Wildfire system predicts spread and automatically triggers emergency dispatch.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Automatically triggers emergency dispatch."
+  },
+  {
+   "id": "ess40",
+   "area": "essential-services",
+   "point": "5(d)",
+   "description": "Mental health crisis chatbot assesses the severity and urgency of contacts for intervention.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Assesses severity/urgency of crisis contacts for intervention (emergency triage)."
+  },
+  {
+   "id": "ess41",
+   "area": "essential-services",
+   "point": "5(d)",
+   "description": "Transcribes poor-quality emergency calls and extracts keywords, without classifying them.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "6.3d",
+   "skill_points": [
+    "5(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": false,
+   "agent_reasoning": "Transcription and keyword extraction without classification; preparatory."
+  },
+  {
+   "id": "ess42",
+   "area": "essential-services",
+   "point": "5(d)",
+   "description": "Forecasts floods or wildfire spread, with no link to dispatch.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Forecast with no link to dispatch."
+  },
+  {
+   "id": "ess43",
+   "area": "essential-services",
+   "point": "5(d)",
+   "description": "Simulation platform for training first responders.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Training simulation."
+  },
+  {
+   "id": "ess44",
+   "area": "essential-services",
+   "point": "5(d)",
+   "description": "Biometric identification of patients before medical procedures.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Patient identity verification, not remote identification."
+  },
+  {
+   "id": "ess45",
+   "area": "essential-services",
+   "point": "5(d)",
+   "description": "Manages network traffic for emergency calls.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "2"
+   ],
+   "verdict_ok": false,
+   "reason_ok": false,
+   "agent_reasoning": "Controls telecom network traffic carrying emergency calls; failure could endanger people (conservative under point 2)."
+  },
+  {
+   "id": "ess46",
+   "area": "essential-services",
+   "point": "5(d)",
+   "description": "Estimates patient healing time for hospital bed management.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Bed management logistics; not eligibility, triage or dispatch."
+  },
+  {
+   "id": "ess47",
+   "area": "essential-services",
+   "point": "5(d)",
+   "description": "Schedules medical appointments.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Appointment scheduling; not in any point."
+  },
+  {
+   "id": "ess48",
+   "area": "essential-services",
+   "point": "5(d)",
+   "description": "Interprets weather risk data to pre-position resources, confirmed by human analysts.",
+   "official": "not",
+   "official_reason": "6.3d",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": false,
+   "agent_reasoning": "Resource pre-positioning advice confirmed by humans; not dispatch of calls."
+  },
+  {
+   "id": "ess49",
+   "area": "essential-services",
+   "point": "5(d)",
+   "description": "Gives first responders situational awareness of an emergency site from structured data.",
+   "official": "not",
+   "official_reason": "6.3d",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": false,
+   "agent_reasoning": "Situational awareness for responders; no call classification or dispatch."
+  },
+  {
+   "id": "mig01",
+   "area": "migration",
+   "point": "7(a)",
+   "description": "Border guards' system gives a credibility indicator from a traveller's answers in secondary inspection.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "7(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Credibility indicator from traveller answers: polygraph-like."
+  },
+  {
+   "id": "mig02",
+   "area": "migration",
+   "point": "7(a)",
+   "description": "Consulate uses voice analysis in visa interviews to indicate whether statements are truthful.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "7(a)",
+    "1(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Voice analysis to infer truthfulness: polygraph-like and inference from biometric data."
+  },
+  {
+   "id": "mig03",
+   "area": "migration",
+   "point": "7(a)",
+   "description": "Transcribes or translates border interview audio without inferring deception.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "6.3d",
+   "skill_points": [
+    "7(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": false,
+   "agent_reasoning": "Transcribing/translating border interviews supports the risk assessment; preparatory."
+  },
+  {
+   "id": "mig04",
+   "area": "migration",
+   "point": "7(a)",
+   "description": "Creates neutral interview summaries with no credibility scoring.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "6.3d",
+   "skill_points": [
+    "7(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": false,
+   "agent_reasoning": "Neutral interview summaries; preparatory."
+  },
+  {
+   "id": "mig05",
+   "area": "migration",
+   "point": "7(a)",
+   "description": "Denoises interview audio and video so caseworkers can review recordings.",
+   "official": "not",
+   "official_reason": "6.3d",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": false,
+   "agent_reasoning": "Audio/video denoising is media enhancement, like data recovery/visualisation."
+  },
+  {
+   "id": "mig06",
+   "area": "migration",
+   "point": "7(b)",
+   "description": "Scores a traveller's history, travel patterns and watch-list matches to decide referral to second-line checks.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "7(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Risk score decides referral to second-line checks."
+  },
+  {
+   "id": "mig07",
+   "area": "migration",
+   "point": "7(b)",
+   "description": "Generates per-person security or irregular-migration flags during travel authorisation.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "7(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Per-person security/irregular-migration flags."
+  },
+  {
+   "id": "mig08",
+   "area": "migration",
+   "point": "7(b)",
+   "description": "Ranks visa applicants by predicted overstay risk.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "7(b)",
+    "7(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Ranks visa applicants by overstay risk."
+  },
+  {
+   "id": "mig09",
+   "area": "migration",
+   "point": "7(b)",
+   "description": "Infers a named traveller's irregular-migration likelihood from online search behaviour.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "7(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Infers an individual's irregular-migration likelihood."
+  },
+  {
+   "id": "mig10",
+   "area": "migration",
+   "point": "7(b)",
+   "description": "Assesses an individual traveller's infectious disease risk to flag them for checks at the border.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "7(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Individual health risk assessment at border."
+  },
+  {
+   "id": "mig11",
+   "area": "migration",
+   "point": "7(b)",
+   "description": "Uses licence plate and travel-time data to flag that a named traveller's journey was abnormally long and refer them to screening.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "7(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Uses a named person's movements to refer them to screening."
+  },
+  {
+   "id": "mig12",
+   "area": "migration",
+   "point": "7(b)",
+   "description": "Applies group overstay indicators to named travellers to flag individuals for enhanced checks.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "7(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Applies indicators to named individuals to flag them."
+  },
+  {
+   "id": "mig13",
+   "area": "migration",
+   "point": "7(b)",
+   "description": "Analytics module plus a rules engine that together produce per-person risk flags for entry.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "7(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Combined system produces per-person risk flags."
+  },
+  {
+   "id": "mig14",
+   "area": "migration",
+   "point": "7(b)",
+   "description": "Analyses aggregate data to detect migration trends, with no identifiable persons.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Aggregate trends, no identifiable persons."
+  },
+  {
+   "id": "mig15",
+   "area": "migration",
+   "point": "7(b)",
+   "description": "Flags an incoming flight as elevated health risk and tests everyone on it equally.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Flight-level flag; everyone treated equally; no per-person assessment."
+  },
+  {
+   "id": "mig16",
+   "area": "migration",
+   "point": "7(b)",
+   "description": "The same health system selects specific individuals for different treatment based on their personal features.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "7(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Selects individuals for treatment based on personal features."
+  },
+  {
+   "id": "mig17",
+   "area": "migration",
+   "point": "7(b)",
+   "description": "Flags vehicles with unusually long journeys for a general technical inspection lane.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Vehicle-level flag for technical inspection, not a person risk."
+  },
+  {
+   "id": "mig18",
+   "area": "migration",
+   "point": "7(b)",
+   "description": "Flags stolen vehicles at a border crossing.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Object (stolen vehicle) detection."
+  },
+  {
+   "id": "mig19",
+   "area": "migration",
+   "point": "7(b)",
+   "description": "Harmonises terminology and detects duplicates in completed risk-assessment records.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "7(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": false,
+   "agent_reasoning": "Terminology harmonisation and de-duplication of completed records."
+  },
+  {
+   "id": "mig20",
+   "area": "migration",
+   "point": "7(c)",
+   "description": "Assesses document authenticity and narrative plausibility and gives credibility signals to the asylum examiner.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "7(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Credibility signals and evidence reliability for asylum examination."
+  },
+  {
+   "id": "mig21",
+   "area": "migration",
+   "point": "7(c)",
+   "description": "Analyses an applicant's phone data to validate routes and timelines for eligibility appraisal.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "7(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Analyses applicant's phone/location data to appraise eligibility."
+  },
+  {
+   "id": "mig22",
+   "area": "migration",
+   "point": "7(c)",
+   "description": "Detects document morphing or forged signatures as part of examining an asylum or visa application.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "7(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Assesses reliability of evidence in an application (not travel-document verification at the border)."
+  },
+  {
+   "id": "mig23",
+   "area": "migration",
+   "point": "7(c)",
+   "description": "Identifies credibility-relevant discrepancies against an applicant's prior submissions.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "7(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Identifies credibility-relevant discrepancies."
+  },
+  {
+   "id": "mig24",
+   "area": "migration",
+   "point": "7(c)",
+   "description": "Infers an applicant's likely region of origin from recorded speech for eligibility reasoning.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "7(c)",
+    "1(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Infers origin from speech for eligibility; may be biometric inference of ethnic origin."
+  },
+  {
+   "id": "mig25",
+   "area": "migration",
+   "point": "7(c)",
+   "description": "Answers applicants' FAQs, guides them to forms and schedules appointments.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "7(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": false,
+   "agent_reasoning": "FAQ guidance and appointment scheduling; procedural."
+  },
+  {
+   "id": "mig26",
+   "area": "migration",
+   "point": "7(c)",
+   "description": "Sorts case-file materials into fixed categories without ranking or omitting items.",
+   "official": "not",
+   "official_reason": "6.3a",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "7(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Sorts case materials into fixed categories."
+  },
+  {
+   "id": "mig27",
+   "area": "migration",
+   "point": "7(c)",
+   "description": "Checks visa application completeness and formatting.",
+   "official": "not",
+   "official_reason": "6.3a",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "7(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Completeness/format check."
+  },
+  {
+   "id": "mig28",
+   "area": "migration",
+   "point": "7(c)",
+   "description": "Highlights verbatim differences between statements without assessing credibility.",
+   "official": "not",
+   "official_reason": "6.3a",
+   "skill": "not",
+   "skill_reason": "6.3d",
+   "skill_points": [
+    "7(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Highlights verbatim differences without credibility assessment; preparatory."
+  },
+  {
+   "id": "mig29",
+   "area": "migration",
+   "point": "7(c)",
+   "description": "Routes applicants to a fixed fee payment under strict objective rules.",
+   "official": "not",
+   "official_reason": "6.3a",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "7(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Routing to a fixed fee under objective rules."
+  },
+  {
+   "id": "mig30",
+   "area": "migration",
+   "point": "7(c)",
+   "description": "Checks travel-authorisation file completeness, with no risk score.",
+   "official": "not",
+   "official_reason": "6.3a",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "7(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Completeness check of travel authorisation file, no risk score."
+  },
+  {
+   "id": "mig31",
+   "area": "migration",
+   "point": "7(c)",
+   "description": "Transcribes, translates or summarises asylum interviews without advising on outcomes.",
+   "official": "not",
+   "official_reason": "6.3d",
+   "skill": "not",
+   "skill_reason": "6.3d",
+   "skill_points": [
+    "7(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Transcribe/translate/summarise without advising."
+  },
+  {
+   "id": "mig32",
+   "area": "migration",
+   "point": "7(c)",
+   "description": "Extracts neutral geolocation metadata on travel routes from devices.",
+   "official": "not",
+   "official_reason": "6.3d",
+   "skill": "not",
+   "skill_reason": "6.3d",
+   "skill_points": [
+    "7(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Neutral metadata extraction; preparatory."
+  },
+  {
+   "id": "mig33",
+   "area": "migration",
+   "point": "7(c)",
+   "description": "Harmonises terminology and grammar in a decision already drafted by a human.",
+   "official": "not",
+   "official_reason": "6.3b",
+   "skill": "not",
+   "skill_reason": "6.3b",
+   "skill_points": [
+    "7(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Language polish of a human-drafted decision."
+  },
+  {
+   "id": "mig34",
+   "area": "migration",
+   "point": "7(c)",
+   "description": "Analyses completed eligibility files for decision patterns for quality assurance.",
+   "official": "not",
+   "official_reason": "6.3c",
+   "skill": "not",
+   "skill_reason": "6.3c",
+   "skill_points": [
+    "7(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Pattern analysis of completed files for QA."
+  },
+  {
+   "id": "mig35",
+   "area": "migration",
+   "point": "7(d)",
+   "description": "Live facial recognition at border crossings returns identity hits from camera feeds.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "7(d)",
+    "1(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Live facial recognition identifying persons at the border."
+  },
+  {
+   "id": "mig36",
+   "area": "migration",
+   "point": "7(d)",
+   "description": "Surveillance towers and drones flag human presence near the border to trigger patrols.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "7(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Detects persons near the border to trigger patrols."
+  },
+  {
+   "id": "mig37",
+   "area": "migration",
+   "point": "7(d)",
+   "description": "Maritime system detects and tracks persons at sea to cue interception for border control.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "7(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Detects/tracks persons at sea to cue interception."
+  },
+  {
+   "id": "mig38",
+   "area": "migration",
+   "point": "7(d)",
+   "description": "Sensors detect people hidden in vehicles at the border and alert for checks.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "7(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Detects hidden persons for checks."
+  },
+  {
+   "id": "mig39",
+   "area": "migration",
+   "point": "7(d)",
+   "description": "Monitors reception or detention areas, tracks identified persons and alerts staff.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "7(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Tracks identified persons' movements and alerts staff."
+  },
+  {
+   "id": "mig40",
+   "area": "migration",
+   "point": "7(d)",
+   "description": "Detects persons in distress at sea solely to coordinate search and rescue.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Search and rescue only, not border control."
+  },
+  {
+   "id": "mig41",
+   "area": "migration",
+   "point": "7(d)",
+   "description": "Verifies travel documents (chip validity, morphing, ink anomalies).",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Travel document verification is excepted from 7(d)."
+  },
+  {
+   "id": "mig42",
+   "area": "migration",
+   "point": "7(d)",
+   "description": "Ship system detects obstacles including persons only to avoid collisions.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Collision avoidance."
+  },
+  {
+   "id": "mig43",
+   "area": "migration",
+   "point": "7(d)",
+   "description": "Analyses historical document-fraud patterns to inform general staffing.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Historical aggregate analysis for staffing."
+  },
+  {
+   "id": "mig44",
+   "area": "migration",
+   "point": "7(d)",
+   "description": "Estimates crowd size at border gates to balance lanes.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Crowd counting."
+  },
+  {
+   "id": "mig45",
+   "area": "migration",
+   "point": "7(d)",
+   "description": "Detects scene-level anomalies like a crowd surge without tracking persons.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Scene-level anomaly detection, no persons tracked."
+  },
+  {
+   "id": "mig46",
+   "area": "migration",
+   "point": "7(d)",
+   "description": "Stabilises and denoises video without detecting persons.",
+   "official": "not",
+   "official_reason": "6.3d",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": false,
+   "agent_reasoning": "Video stabilisation/denoising without detecting persons."
+  },
+  {
+   "id": "jus01",
+   "area": "justice-democracy",
+   "point": "8(a)",
+   "description": "AI analyses case facts, submissions and law and drafts parts of a judgment for the judge.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "8(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Applies law to facts and drafts judgment parts."
+  },
+  {
+   "id": "jus02",
+   "area": "justice-democracy",
+   "point": "8(a)",
+   "description": "AI generates draft decisions in small claims or payment orders from structured case data.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "8(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Generates draft decisions."
+  },
+  {
+   "id": "jus03",
+   "area": "justice-democracy",
+   "point": "8(a)",
+   "description": "AI clusters facts of similar cases, finds reasoning patterns in past decisions and prepares text modules for judges.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "8(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Prepares reasoning text modules for judges from similar cases; influences decisions."
+  },
+  {
+   "id": "jus04",
+   "area": "justice-democracy",
+   "point": "8(a)",
+   "description": "AI analyses the facts of a court case and suggests relevant laws and precedents and how they apply.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "8(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Suggests laws/precedents and how they apply to the facts."
+  },
+  {
+   "id": "jus05",
+   "area": "justice-democracy",
+   "point": "8(a)",
+   "description": "AI transcribes court hearings with speaker separation.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "6.3d",
+   "skill_points": [
+    "8(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": false,
+   "agent_reasoning": "Transcription of hearings."
+  },
+  {
+   "id": "jus06",
+   "area": "justice-democracy",
+   "point": "8(a)",
+   "description": "Chatbot on a court website gives procedural information and deadlines.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Procedural info chatbot for the public."
+  },
+  {
+   "id": "jus07",
+   "area": "justice-democracy",
+   "point": "8(a)",
+   "description": "AI turns judgments into press releases.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Press releases from finished judgments; ancillary communication."
+  },
+  {
+   "id": "jus08",
+   "area": "justice-democracy",
+   "point": "8(a)",
+   "description": "AI assigns cases to judges by specialisation and workload.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "8(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": false,
+   "agent_reasoning": "Case allocation by specialisation and workload; procedural."
+  },
+  {
+   "id": "jus09",
+   "area": "justice-democracy",
+   "point": "8(a)",
+   "description": "AI builds event chronologies from evidence and locates content in case files.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "6.3d",
+   "skill_points": [
+    "8(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": false,
+   "agent_reasoning": "Compiling chronologies and locating content; preparatory."
+  },
+  {
+   "id": "jus10",
+   "area": "justice-democracy",
+   "point": "8(a)",
+   "description": "AI handles anonymisation, document dispatch and fee verification for a court.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Ancillary administrative tasks (anonymisation, dispatch, fees)."
+  },
+  {
+   "id": "jus11",
+   "area": "justice-democracy",
+   "point": "8(a)",
+   "description": "AI pre-classifies incoming claims by case type only.",
+   "official": "not",
+   "official_reason": "6.3a",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "8(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Pre-classification by case type."
+  },
+  {
+   "id": "jus12",
+   "area": "justice-democracy",
+   "point": "8(a)",
+   "description": "AI extracts parties and witnesses from a claim to support summons.",
+   "official": "not",
+   "official_reason": "6.3a",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "8(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Extracts parties for summons; procedural."
+  },
+  {
+   "id": "jus13",
+   "area": "justice-democracy",
+   "point": "8(a)",
+   "description": "AI-enhanced case law database with keyword and natural-language search.",
+   "official": "not",
+   "official_reason": "6.3a",
+   "skill": "not",
+   "skill_reason": "6.3d",
+   "skill_points": [
+    "8(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Retrieves reference material."
+  },
+  {
+   "id": "jus14",
+   "area": "justice-democracy",
+   "point": "8(a)",
+   "description": "AI proofreads judgments drafted by judges without changing content.",
+   "official": "not",
+   "official_reason": "6.3b",
+   "skill": "not",
+   "skill_reason": "6.3b",
+   "skill_points": [
+    "8(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Proofreads finished judgments."
+  },
+  {
+   "id": "jus15",
+   "area": "justice-democracy",
+   "point": "8(a)",
+   "description": "AI compares a finished draft judgment with the case file and flags unaddressed facts (compliance check only).",
+   "official": "not",
+   "official_reason": "6.3b",
+   "skill": "not",
+   "skill_reason": "6.3b",
+   "skill_points": [
+    "8(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Flags gaps in a finished draft without proposing an outcome."
+  },
+  {
+   "id": "jus16",
+   "area": "justice-democracy",
+   "point": "8(b)",
+   "description": "AI optimises targeting and delivery of political ads to voters.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "8(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Targets political ads to voters."
+  },
+  {
+   "id": "jus17",
+   "area": "justice-democracy",
+   "point": "8(b)",
+   "description": "Chatbot for a political party simulates dialogue to persuade voters toward a candidate.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "8(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Persuades voters toward a candidate."
+  },
+  {
+   "id": "jus18",
+   "area": "justice-democracy",
+   "point": "8(b)",
+   "description": "Voter advice app recommends the closest-matching party or candidate.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "8(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Recommends party/candidate to voters from their views."
+  },
+  {
+   "id": "jus19",
+   "area": "justice-democracy",
+   "point": "8(b)",
+   "description": "AI schedules rallies and manages campaign volunteers.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Campaign logistics excluded."
+  },
+  {
+   "id": "jus20",
+   "area": "justice-democracy",
+   "point": "8(b)",
+   "description": "AI predicts donors' likelihood to contribute to a campaign.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Donor prediction; not voting behaviour."
+  },
+  {
+   "id": "jus21",
+   "area": "justice-democracy",
+   "point": "8(b)",
+   "description": "Generative AI drafts political slogans that a party reviews, without disseminating them.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Internal drafting; voters not directly exposed to AI output."
+  },
+  {
+   "id": "jus22",
+   "area": "justice-democracy",
+   "point": "8(b)",
+   "description": "AI monitors elected officials' legislative proposals from parliament websites.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Monitoring public legislative proposals."
+  },
+  {
+   "id": "jus23",
+   "area": "justice-democracy",
+   "point": "8(b)",
+   "description": "Agency uses AI to collect and neutrally present electoral information to the public.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Neutral information."
+  },
+  {
+   "id": "jus24",
+   "area": "justice-democracy",
+   "point": "8(b)",
+   "description": "University models electoral behaviour for research.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Research use."
+  },
+  {
+   "id": "jus25",
+   "area": "justice-democracy",
+   "point": "8(b)",
+   "description": "AI counts paper ballots by scanning and OCR.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Ballot counting; not influencing voters."
+  },
+  {
+   "id": "jus26",
+   "area": "justice-democracy",
+   "point": "8(b)",
+   "description": "Election authority chatbot gives voting dates and locations.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Voting dates and places."
+  },
+  {
+   "id": "jus27",
+   "area": "justice-democracy",
+   "point": "8(b)",
+   "description": "AI checks the tone of human-written campaign texts and suggests rewording.",
+   "official": "not",
+   "official_reason": "6.3b",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": false,
+   "agent_reasoning": "Tone suggestions on human-written texts; voters not directly exposed to AI output."
+  },
+  {
+   "id": "hor01",
+   "area": "horizontal",
+   "point": "5(b)",
+   "description": "Credit score for a sole trader's business using only business data.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(b)"
+   ],
+   "verdict_ok": false,
+   "reason_ok": false,
+   "agent_reasoning": "A sole trader is a natural person; credit score of the person's business (conservative)."
+  },
+  {
+   "id": "hor02",
+   "area": "horizontal",
+   "point": "5(b)",
+   "description": "Creditworthiness assessment of companies from balance sheets and financial statements.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Companies, not natural persons."
+  },
+  {
+   "id": "hor03",
+   "area": "horizontal",
+   "point": "6",
+   "description": "Accounting firm's anti-money-laundering screening done for its own legal obligations.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "AML/fraud screening, not creditworthiness."
+  },
+  {
+   "id": "hor04",
+   "area": "horizontal",
+   "point": "3(a)",
+   "description": "Sorts university applications by grade or education level without assessing suitability.",
+   "official": "not",
+   "official_reason": "6.3a",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "3(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Sorts applications by objective criteria without assessing suitability."
+  },
+  {
+   "id": "hor05",
+   "area": "horizontal",
+   "point": "7(c)",
+   "description": "Visa file system that scans, converts text, files documents into fixed folders and detects duplicates, without ranking or assessing.",
+   "official": "not",
+   "official_reason": "6.3a",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "7(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Scanning, OCR, filing and de-duplication."
+  },
+  {
+   "id": "hor06",
+   "area": "horizontal",
+   "point": "5(a)",
+   "description": "Detects incomplete benefit forms and returns them to applicants.",
+   "official": "not",
+   "official_reason": "6.3a",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Completeness check of benefit forms."
+  },
+  {
+   "id": "hor07",
+   "area": "horizontal",
+   "point": "5(a)",
+   "description": "AI checks a human benefit decision and proposes a substantially different outcome.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Proposes a different outcome on a benefit decision; (b) not available."
+  },
+  {
+   "id": "hor08",
+   "area": "horizontal",
+   "point": "8(a)",
+   "description": "Flags errors or contradictions in finalised human-written decisions (quality assurance).",
+   "official": "not",
+   "official_reason": "6.3b",
+   "skill": "not",
+   "skill_reason": "6.3b",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Flags errors in finalised decisions (QA); domain assumed public benefits."
+  },
+  {
+   "id": "hor09",
+   "area": "horizontal",
+   "point": "8(a)",
+   "description": "Maps conclusions in a finished decision to evidence records for traceability.",
+   "official": "not",
+   "official_reason": "6.3b",
+   "skill": "not",
+   "skill_reason": "6.3b",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Maps finished decision to evidence for traceability."
+  },
+  {
+   "id": "hor10",
+   "area": "horizontal",
+   "point": "5(a)",
+   "description": "Converts human-validated decisions into accessible formats.",
+   "official": "not",
+   "official_reason": "6.3b",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Format conversion of validated decisions."
+  },
+  {
+   "id": "hor11",
+   "area": "horizontal",
+   "point": "5(a)",
+   "description": "Analyses past public eligibility decisions for deviations, without proposing outcomes on live cases.",
+   "official": "not",
+   "official_reason": "6.3c",
+   "skill": "not",
+   "skill_reason": "6.3c",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Deviation analysis of past decisions, no live-case proposals."
+  },
+  {
+   "id": "hor12",
+   "area": "horizontal",
+   "point": "5(a)",
+   "description": "Provides legal references and internal guidelines to a human assessor of benefit applications.",
+   "official": "not",
+   "official_reason": "6.3d",
+   "skill": "not",
+   "skill_reason": "6.3d",
+   "skill_points": [
+    "5(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Retrieves legal references for the assessor."
+  },
+  {
+   "id": "hor13",
+   "area": "horizontal",
+   "point": "4(a)",
+   "description": "Recruitment system detects deviations from past hiring patterns by evaluating recruiters' personal characteristics.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "4(a)",
+    "4(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Evaluates recruiters' personal characteristics, so (c) is excluded; also evaluates workers."
+  }
+ ]
+}

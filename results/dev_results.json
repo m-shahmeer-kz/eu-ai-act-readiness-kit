@@ -1,0 +1,2209 @@
+{
+ "summary": {
+  "split": "dev",
+  "cases": 146,
+  "answered": 146,
+  "missing": [],
+  "verdict_correct": 144,
+  "accuracy": 0.986,
+  "high_risk_cases": 54,
+  "high_risk_caught": 54,
+  "high_risk_missed": 0,
+  "not_high_risk_cases": 92,
+  "false_alarms": 2,
+  "reason_correct_when_verdict_correct": 141,
+  "by_area": {
+   "biometrics": "40/41",
+   "critical-infrastructure": "25/25",
+   "employment": "32/32",
+   "law-enforcement": "47/48"
+  },
+  "source": "https://ai-act-service-desk.ec.europa.eu/en/"
+ },
+ "rows": [
+  {
+   "id": "emp01",
+   "area": "employment",
+   "point": "4(a)",
+   "description": "An automated job matching and ranking tool scores and shortlists candidates for recruiters.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "4(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Scores and shortlists candidates: recruitment/selection, ranking, no filter."
+  },
+  {
+   "id": "emp02",
+   "area": "employment",
+   "point": "4(a)",
+   "description": "An AI tool sources candidates or contractors from social media, job boards and CV databases for a company's hiring.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "4(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Sourcing candidates is listed under 4(a); it selects whom to approach."
+  },
+  {
+   "id": "emp03",
+   "area": "employment",
+   "point": "4(a)",
+   "description": "An online platform ranks self-employed service providers (freelancers) shown to consumers who want to hire them.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "4(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Ranking freelancers for clients is listed under 4(a)."
+  },
+  {
+   "id": "emp04",
+   "area": "employment",
+   "point": "4(a)",
+   "description": "A camera-based system assesses pilot candidates' visual capacities against eligibility thresholds during selection.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "4(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Evaluates candidates' physical capacities against selection thresholds."
+  },
+  {
+   "id": "emp05",
+   "area": "employment",
+   "point": "4(a)",
+   "description": "An AI system scores applicants' written or oral answers and ranks them for interview invitations.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "4(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Scoring interview answers and ranking for invitations is 4(a)."
+  },
+  {
+   "id": "emp06",
+   "area": "employment",
+   "point": "4(a)",
+   "description": "An AI system supports recruitment of apprentices by screening CVs and generating shortlists.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "4(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "CV screening and shortlisting of apprentices is analysing/filtering applications."
+  },
+  {
+   "id": "emp07",
+   "area": "employment",
+   "point": "4(a)",
+   "description": "An AI system targets job advertisements for a vacancy at specific social media users based on behavioural data.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "4(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Targeted job ads for a vacancy using behavioural data; filters who sees the opportunity."
+  },
+  {
+   "id": "emp08",
+   "area": "employment",
+   "point": "4(a)",
+   "description": "An employment agency uses AI to rank candidates for vacancies and suggest postings to jobseekers.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "4(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Ranking candidates for an employment agency is listed under 4(a)."
+  },
+  {
+   "id": "emp09",
+   "area": "employment",
+   "point": "4(a)",
+   "description": "An AI system runs background checks on job applicants and produces risk scores and alerts.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "4(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Background-check risk scoring of applicants is listed under 4(a)."
+  },
+  {
+   "id": "emp10",
+   "area": "employment",
+   "point": "4(b)",
+   "description": "A retail/logistics AI scheduler ranks workers and allocates shifts based on performance and behaviour signals.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "4(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Shift allocation by performance/behaviour is 4(b)."
+  },
+  {
+   "id": "emp11",
+   "area": "employment",
+   "point": "4(b)",
+   "description": "An AI system aggregates tutor performance data and automatically suspends and deactivates self-employed tutors' accounts on a platform.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "4(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Automatic deactivation based on performance data is 4(b)."
+  },
+  {
+   "id": "emp12",
+   "area": "employment",
+   "point": "4(b)",
+   "description": "A law firm's AI system allocates client matters to associates based on behavioural scores.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "4(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Allocating tasks by behavioural scores is 4(b)."
+  },
+  {
+   "id": "emp13",
+   "area": "employment",
+   "point": "4(b)",
+   "description": "A ride-hailing AI sets driver pay coefficients and per-ride fares based on drivers' behavioural metrics.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "4(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Pay/fare setting from behaviour metrics is 4(b)."
+  },
+  {
+   "id": "emp14",
+   "area": "employment",
+   "point": "4(b)",
+   "description": "A public administration's AI system assigns successful candidates to civil service posts.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "4(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Assigning selected candidates to posts is part of selection and decides who gets which job."
+  },
+  {
+   "id": "emp15",
+   "area": "employment",
+   "point": "4(a)",
+   "description": "An AI tool flags non-inclusive or discriminatory wording in job ads before they are published.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Job-ad wording checker is listed as out of 4(a)."
+  },
+  {
+   "id": "emp16",
+   "area": "employment",
+   "point": "4(a)",
+   "description": "An AI system optimises placement of employer-brand ads that are not tied to any specific vacancy.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Employer-branding ads not tied to a vacancy are out of 4(a)."
+  },
+  {
+   "id": "emp17",
+   "area": "employment",
+   "point": "4(a)",
+   "description": "An AI system monitors anonymised online comments and reviews to track employer reputation trends.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Reputation monitoring on anonymised data is out of 4(a)."
+  },
+  {
+   "id": "emp18",
+   "area": "employment",
+   "point": "4(a)",
+   "description": "An AI assistant answers new employees' onboarding questions about company policy and training.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Onboarding Q&A is out of point 4."
+  },
+  {
+   "id": "emp19",
+   "area": "employment",
+   "point": "4(a)",
+   "description": "An AI tool recommends CV edits to job candidates; the output is shared only with the candidate.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Tool used only by the candidate for themselves is out of 4(a)."
+  },
+  {
+   "id": "emp20",
+   "area": "employment",
+   "point": "4(a)",
+   "description": "An AI tool ranks job vacancies for a candidate; the ranking is shared only with that candidate.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Job suggestions shared only with the candidate are out of 4(a), though it evaluates the candidate's fit/preferences."
+  },
+  {
+   "id": "emp21",
+   "area": "employment",
+   "point": "4(a)",
+   "description": "An AI system checks applicants' professional accreditations against official registries and returns 'confirmed' or 'not confirmed'.",
+   "official": "not",
+   "official_reason": "6.3a",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "4(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Registry check of a certificate with factual yes/no: 6(3)(a)."
+  },
+  {
+   "id": "emp22",
+   "area": "employment",
+   "point": "4(a)",
+   "description": "An AI system organises information from received CVs into a searchable internal database.",
+   "official": "not",
+   "official_reason": "6.3d",
+   "skill": "not",
+   "skill_reason": "6.3d",
+   "skill_points": [
+    "4(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Filing CVs into a searchable database: 6(3)(d)."
+  },
+  {
+   "id": "emp23",
+   "area": "employment",
+   "point": "4(a)",
+   "description": "An AI system schedules job interviews, taking into account availability and candidates' accessibility needs.",
+   "official": "not",
+   "official_reason": "6.3a",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "4(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Interview scheduling: 6(3)(a)."
+  },
+  {
+   "id": "emp24",
+   "area": "employment",
+   "point": "4(a)",
+   "description": "An AI system audits past anonymised hiring decisions to detect bias or inconsistencies.",
+   "official": "not",
+   "official_reason": "6.3c",
+   "skill": "not",
+   "skill_reason": "6.3c",
+   "skill_points": [
+    "4(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Audit of past anonymised hiring decisions: 6(3)(c)."
+  },
+  {
+   "id": "emp25",
+   "area": "employment",
+   "point": "4(a)",
+   "description": "An AI system sends personalised acknowledgement emails for received job applications.",
+   "official": "not",
+   "official_reason": "6.3a",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "4(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Acknowledgement emails: routine confirmation, 6(3)(a)."
+  },
+  {
+   "id": "emp26",
+   "area": "employment",
+   "point": "4(b)",
+   "description": "An AI system in a warehouse tracks parcels and label errors and alerts only the responsible employee.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Incidental monitoring that only alerts the person themselves is out of 4(b)."
+  },
+  {
+   "id": "emp27",
+   "area": "employment",
+   "point": "4(b)",
+   "description": "An AI system gives feedback on employees' voluntary training quizzes and course completion.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Voluntary training quiz feedback not used for performance is out of 4(b)."
+  },
+  {
+   "id": "emp28",
+   "area": "employment",
+   "point": "4(b)",
+   "description": "An AI booking tool allocates desks and meeting rooms in a hybrid office.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Desk/room logistics are out of 4(b)."
+  },
+  {
+   "id": "emp29",
+   "area": "employment",
+   "point": "4(b)",
+   "description": "An AI travel tool suggests flights, hotels and itineraries for employees' business trips.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Business travel logistics are out of 4(b)."
+  },
+  {
+   "id": "emp30",
+   "area": "employment",
+   "point": "4(b)",
+   "description": "A food delivery app's AI suggests high-demand areas that couriers can freely ignore without any penalty.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Optional suggestions with no penalty are out of 4(b)."
+  },
+  {
+   "id": "emp31",
+   "area": "employment",
+   "point": "4(b)",
+   "description": "An AI system compiles attendance records into reports for managers without evaluating or flagging employees.",
+   "official": "not",
+   "official_reason": "6.3d",
+   "skill": "not",
+   "skill_reason": "6.3d",
+   "skill_points": [
+    "4(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Compiling attendance records without evaluating: 6(3)(d)."
+  },
+  {
+   "id": "emp32",
+   "area": "employment",
+   "point": "4(b)",
+   "description": "An AI writing assistant refines managers' already completed promotion evaluations for clarity and flags biased wording.",
+   "official": "not",
+   "official_reason": "6.3b",
+   "skill": "not",
+   "skill_reason": "6.3b",
+   "skill_points": [
+    "4(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Polishing a manager's finished evaluation: 6(3)(b)."
+  },
+  {
+   "id": "bio01",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "A media archive uses facial and voice recognition to identify selected people in audiovisual content by comparing it to a reference database, without their involvement.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "1(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "1:N face/voice identification against a reference database without involvement."
+  },
+  {
+   "id": "bio02",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "A system identifies speakers by comparing recordings to a database of known voiceprints, without their involvement.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "1(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Speaker identification against a voiceprint database without involvement."
+  },
+  {
+   "id": "bio03",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "Stadium CCTV images captured during a match are compared after the incident against a database to identify offenders.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "1(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Post-event remote identification of offenders against a database."
+  },
+  {
+   "id": "bio04",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "CCTV footage from a private property is used with face matching to identify a burglary suspect without their involvement.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "1(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Face matching of CCTV to identify a suspect without involvement (private place still counts)."
+  },
+  {
+   "id": "bio05",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "A system matches child sexual abuse material found online against a database of suspects to identify an offender.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "1(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Identifies an offender by biometric matching against a suspect database."
+  },
+  {
+   "id": "bio06",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "Reverse image search with face matching is used to identify an undercover person online without their active involvement.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "1(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Face-matching reverse image search to identify a person without involvement."
+  },
+  {
+   "id": "bio07",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "A system compares features of a person in a picture from the internet or CCTV against indexed online pictures to identify the person.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "1(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Identifies a person by comparing features against indexed online pictures."
+  },
+  {
+   "id": "bio08",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "Facial recognition at stadium entry checks people against a list of banned individuals; people actively step in front of the camera to enter.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "People actively step in front of the camera, so not remote per guide; but output decides entry."
+  },
+  {
+   "id": "bio09",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "Face unlock on a smartphone.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "1:1 verification, out of 1(a)."
+  },
+  {
+   "id": "bio10",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "Identity check (selfie vs ID document) when onboarding a new trader on a trading platform.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "KYC selfie vs ID is verification, out of 1(a)."
+  },
+  {
+   "id": "bio11",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "Face authentication of the candidate at the start of a remotely proctored exam.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Exam log-in authentication is verification, out of 1(a)."
+  },
+  {
+   "id": "bio12",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "Biometric login to an online bank account.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Bank login is verification, out of 1(a)."
+  },
+  {
+   "id": "bio13",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "Voice-based identity confirmation when a customer calls a bank's call centre.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Voice confirmation of a claimed identity is verification."
+  },
+  {
+   "id": "bio14",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "Police check at the roadside that a person's fingerprint matches the one on their ID card.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "1:1 fingerprint vs ID card is verification."
+  },
+  {
+   "id": "bio15",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "Smart-home door access by face for residents who consciously present themselves at the entrance.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Door access the person presents themselves to is verification/active involvement."
+  },
+  {
+   "id": "bio16",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "A 'smart corridor' at an event recognises registered attendees who opted in and walk through it.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Opted-in attendees consciously walk through: active involvement, not remote."
+  },
+  {
+   "id": "bio17",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "Facial recognition used solely to grant access to hazardous areas or secure premises.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Used solely for access to premises: verification, out of 1(a)."
+  },
+  {
+   "id": "bio18",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "Voice analysis that infers the country of origin of a speaker, not who the speaker is.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "1(b)"
+   ],
+   "verdict_ok": false,
+   "reason_ok": false,
+   "agent_reasoning": "Infers national/ethnic origin (protected attribute) from voice biometrics."
+  },
+  {
+   "id": "bio19",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "Tool that filters seized material, e.g. checks whether a child is present in a photo, to structure evidence.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Detecting presence of a child (age, non-sensitive) to structure evidence; not 1(b)."
+  },
+  {
+   "id": "bio20",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "Crime-scene video analysis that clusters and tracks persons within a closed dataset without matching against any external database.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Closed dataset without matching against reference data is out of 1(a)."
+  },
+  {
+   "id": "bio21",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "Multispectral fingerprint capture device that does not match prints against a reference database.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "No matching against a reference database."
+  },
+  {
+   "id": "bio22",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "Anonymisation tool that blurs faces in videos for data protection.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Anonymisation/blurring tool is out of point 1."
+  },
+  {
+   "id": "bio23",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "Thermal cameras in trains detect which seats are occupied and count people.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Only detects presence/counts people."
+  },
+  {
+   "id": "bio24",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "Thermal cameras on railway lines detect trespassers on the tracks and alert staff.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Detects presence of trespassers, not identity; rail not listed in point 2."
+  },
+  {
+   "id": "bio25",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "Drones or satellites search for missing people by detecting humans through non-biometric signals.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Detects humans through non-biometric signals."
+  },
+  {
+   "id": "bio26",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "Infrared sensor that detects whether humans are present in a room.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Only detects presence."
+  },
+  {
+   "id": "bio27",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "Tracking a suspect across cameras by clothing and body outline, without extracting biometric features.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Tracking by clothing without biometric features is out of 1(a)."
+  },
+  {
+   "id": "bio28",
+   "area": "biometrics",
+   "point": "1(a)",
+   "description": "Linking criminal cases by comparing facial imagery without using biometric templates to identify suspects.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Matching without biometric templates is out of 1(a)."
+  },
+  {
+   "id": "bio29",
+   "area": "biometrics",
+   "point": "1(b)",
+   "description": "A system infers patients' disease stage from their gait data and categorises them.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "1(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Infers health condition/disease stage from gait biometrics."
+  },
+  {
+   "id": "bio30",
+   "area": "biometrics",
+   "point": "1(b)",
+   "description": "An airport system infers attributes such as ethnic origin from gait and face templates to assign passengers to categories.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "1(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Infers ethnic origin from biometrics; also check Art 5(1)(g) prohibition (race)."
+  },
+  {
+   "id": "bio31",
+   "area": "biometrics",
+   "point": "1(b)",
+   "description": "A border system infers travellers' age and gender from their face (not used for risk assessment).",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Age and gender are non-sensitive attributes; not used for risk assessment."
+  },
+  {
+   "id": "bio32",
+   "area": "biometrics",
+   "point": "1(b)",
+   "description": "An online shop infers customers' gender from keystroke dynamics.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Gender inference is non-sensitive, out of 1(b)."
+  },
+  {
+   "id": "bio33",
+   "area": "biometrics",
+   "point": "1(b)",
+   "description": "Age estimation from a face to restrict access to age-restricted content.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Age estimation is non-sensitive, out of 1(b)."
+  },
+  {
+   "id": "bio34",
+   "area": "biometrics",
+   "point": "1(b)",
+   "description": "Content moderation that scans text and images uploaded by users.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Content moderation of text/images is not biometric categorisation."
+  },
+  {
+   "id": "bio35",
+   "area": "biometrics",
+   "point": "1(c)",
+   "description": "Police bodycams flag 'aggressive posture' of people from gait, posture and facial analysis.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "1(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Infers aggression/intentions from biometric data and flags individuals."
+  },
+  {
+   "id": "bio36",
+   "area": "biometrics",
+   "point": "1(c)",
+   "description": "A video game tracks players' facial expressions and posture to infer their emotions and measure the experience.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "1(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Infers emotions from facial expressions/posture."
+  },
+  {
+   "id": "bio37",
+   "area": "biometrics",
+   "point": "1(c)",
+   "description": "Concert or stadium cameras screen individual participants' emotions to assess crowd mood.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "1(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Screens individual participants' emotions from biometric data."
+  },
+  {
+   "id": "bio38",
+   "area": "biometrics",
+   "point": "1(c)",
+   "description": "A call-centre system infers customers' emotions from their voice to route calls or assess satisfaction.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "1(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Infers customers' emotions from voice; routing changes treatment."
+  },
+  {
+   "id": "bio39",
+   "area": "biometrics",
+   "point": "1(c)",
+   "description": "A smartwatch app infers the wearer's mood from voice and heart rate.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "1(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Infers mood from voice and heart rate."
+  },
+  {
+   "id": "bio40",
+   "area": "biometrics",
+   "point": "1(c)",
+   "description": "Driver drowsiness detection that detects fatigue (a physical state) in the car.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Fatigue/drowsiness is a physical state, out of 1(c)."
+  },
+  {
+   "id": "bio41",
+   "area": "biometrics",
+   "point": "1(c)",
+   "description": "A tool counts how often presenters smile during a talk, without inferring emotions.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Counts smiles without inferring emotion, out of 1(c)."
+  },
+  {
+   "id": "ci01",
+   "area": "critical-infrastructure",
+   "point": "2(a)",
+   "description": "AI fire alarm control system in cloud computing data centres.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "2"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Fire alarm control in data centres is a listed safety component."
+  },
+  {
+   "id": "ci02",
+   "area": "critical-infrastructure",
+   "point": "2(b)",
+   "description": "Real-time AI translation that lets public transport staff communicate safety information with drivers or passengers.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "2"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Real-time communication of safety information to road users/passengers; failure could endanger safety."
+  },
+  {
+   "id": "ci03",
+   "area": "critical-infrastructure",
+   "point": "2(b)",
+   "description": "AI that monitors road traffic and adjusts traffic lights.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "2"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Controls traffic lights: safety component of road traffic."
+  },
+  {
+   "id": "ci04",
+   "area": "critical-infrastructure",
+   "point": "2(b)",
+   "description": "AI that detects heavy objects on vulnerable bridges and quaysides to prevent collapse.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "2"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Directly protects physical integrity of bridges/quaysides."
+  },
+  {
+   "id": "ci05",
+   "area": "critical-infrastructure",
+   "point": "2(b)",
+   "description": "AI that links real-time water level data to road lock management during floods.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "2"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Drives road lock management during floods: controls physical safety."
+  },
+  {
+   "id": "ci06",
+   "area": "critical-infrastructure",
+   "point": "2(b)",
+   "description": "Intelligent traffic control system that sends instructions to road users over telecom networks to prevent accidents.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "2"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Real-time instructions to road users to prevent accidents."
+  },
+  {
+   "id": "ci07",
+   "area": "critical-infrastructure",
+   "point": "2(c)",
+   "description": "AI pressure monitoring in drinking water distribution.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "2"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Water pressure safety monitoring is listed as in."
+  },
+  {
+   "id": "ci08",
+   "area": "critical-infrastructure",
+   "point": "2(c)",
+   "description": "AI that predicts sewage overflow that could affect drinking water.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "2"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Safeguards drinking water against contamination; treated as safety component despite being a prediction."
+  },
+  {
+   "id": "ci09",
+   "area": "critical-infrastructure",
+   "point": "2(f)",
+   "description": "AI surveillance and perimeter protection (cameras, radar, drones) of electricity substations.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "2"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Perimeter protection of grid assets is listed as in."
+  },
+  {
+   "id": "ci10",
+   "area": "critical-infrastructure",
+   "point": "2(f)",
+   "description": "AI anomaly detection in electricity grid operating data that drives decisions on load distribution, grid stability or shutdowns.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "2"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Grid anomaly detection driving load/shutdown decisions is listed as in."
+  },
+  {
+   "id": "ci11",
+   "area": "critical-infrastructure",
+   "point": "2(a)",
+   "description": "AI trouble-ticket management for a telecom network.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Ticketing is out of point 2."
+  },
+  {
+   "id": "ci12",
+   "area": "critical-infrastructure",
+   "point": "2(a)",
+   "description": "AI that optimises a telecom network to customer needs.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Optimisation is out of point 2."
+  },
+  {
+   "id": "ci13",
+   "area": "critical-infrastructure",
+   "point": "2(a)",
+   "description": "Chat assistant over the technical user guide for network maintenance staff.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Documentation assistant is out of point 2."
+  },
+  {
+   "id": "ci14",
+   "area": "critical-infrastructure",
+   "point": "2(a)",
+   "description": "AI that predicts network load for a digital infrastructure operator.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Forecasting is out of point 2."
+  },
+  {
+   "id": "ci15",
+   "area": "critical-infrastructure",
+   "point": "2(b)",
+   "description": "Traffic flow analytics platform using real-time data; traffic systems run without it.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Analytics; infrastructure runs without it."
+  },
+  {
+   "id": "ci16",
+   "area": "critical-infrastructure",
+   "point": "2(b)",
+   "description": "Predictive maintenance for road infrastructure, one precautionary measure among several.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Predictive maintenance as one measure among others."
+  },
+  {
+   "id": "ci17",
+   "area": "critical-infrastructure",
+   "point": "2(d)",
+   "description": "Predictive maintenance for gas pipeline monitoring; safety systems operate independently.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Predictive maintenance with independent safety systems."
+  },
+  {
+   "id": "ci18",
+   "area": "critical-infrastructure",
+   "point": "2(e)",
+   "description": "Autonomous robots patrol a power plant and can only detect and report issues, not intervene.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Can only observe and report, not intervene."
+  },
+  {
+   "id": "ci19",
+   "area": "critical-infrastructure",
+   "point": "2(f)",
+   "description": "Electricity demand forecasting to optimise the grid; safety functions are handled separately.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Forecasting/optimisation with separate safety functions."
+  },
+  {
+   "id": "ci20",
+   "area": "critical-infrastructure",
+   "point": "2(f)",
+   "description": "AI cybersecurity monitoring of an energy company's IT network, independent of physical grid control.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Cybersecurity independent of physical control."
+  },
+  {
+   "id": "ci21",
+   "area": "critical-infrastructure",
+   "point": "2(f)",
+   "description": "Image-based quality checks of installed electricity meters, advisory to a human worker.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Advisory quality check to a human worker."
+  },
+  {
+   "id": "ci22",
+   "area": "critical-infrastructure",
+   "point": "2(f)",
+   "description": "Incident detection that warns a human operator, who decides on precautionary outage measures.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Advisory warning to a human operator who decides."
+  },
+  {
+   "id": "ci23",
+   "area": "critical-infrastructure",
+   "point": "2(f)",
+   "description": "Anomaly detection in grid data used for human-checked decisions and future improvements.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Anomaly detection for human-checked decisions, not driving control."
+  },
+  {
+   "id": "ci24",
+   "area": "critical-infrastructure",
+   "point": "2(f)",
+   "description": "Assistant that recommends actions and predicts energy consumption at transmission or local level.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Advisory recommendations and forecasting."
+  },
+  {
+   "id": "ci25",
+   "area": "critical-infrastructure",
+   "point": "2(f)",
+   "description": "Human-supervised 15-minute forecasts of grid imbalances for market actors.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Human-supervised forecasts for market actors."
+  },
+  {
+   "id": "le01",
+   "area": "law-enforcement",
+   "point": "6(a)",
+   "description": "Police domestic-violence risk tool rates the risk to a potential victim from statements and police records.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "6(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Rates a natural person's risk of becoming a victim."
+  },
+  {
+   "id": "le02",
+   "area": "law-enforcement",
+   "point": "6(a)",
+   "description": "Tool used by judicial authorities in criminal proceedings to estimate the probability of repeated domestic partner violence against a victim.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "6(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Estimates risk of a person becoming a victim again (also overlaps 6(d) for the perpetrator)."
+  },
+  {
+   "id": "le03",
+   "area": "law-enforcement",
+   "point": "6(a)",
+   "description": "Police tool scores a person's likelihood of becoming a victim of human trafficking from indicators like age and documentation.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "6(a)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Scores a person's risk of becoming a trafficking victim."
+  },
+  {
+   "id": "le04",
+   "area": "law-enforcement",
+   "point": "6(a)",
+   "description": "Police system estimates whether a specific location will see offending or victimisation (not about specific people).",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Location-level prediction not tied to persons."
+  },
+  {
+   "id": "le05",
+   "area": "law-enforcement",
+   "point": "6(a)",
+   "description": "Drone-mounted tool detects weapons and hazards at an initial crime scene, without biometric functions.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Object/hazard detection without biometrics."
+  },
+  {
+   "id": "le06",
+   "area": "law-enforcement",
+   "point": "6(a)",
+   "description": "Police system identifies road segments and times where traffic accidents are likely.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Location/time prediction of accidents, not persons."
+  },
+  {
+   "id": "le07",
+   "area": "law-enforcement",
+   "point": "6(a)",
+   "description": "Video analytics predicting overcrowding or stampedes at large gatherings.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Event-level crowd prediction."
+  },
+  {
+   "id": "le08",
+   "area": "law-enforcement",
+   "point": "6(a)",
+   "description": "Flood-risk and wildfire models identifying populations at risk.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Population-level natural hazard models, not crime-related person risk."
+  },
+  {
+   "id": "le09",
+   "area": "law-enforcement",
+   "point": "6(b)",
+   "description": "Police analyse facial micro-expressions to assess the credibility of a suspect's answers during interrogation.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "6(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Polygraph-like credibility assessment (also emotion inference from facial micro-expressions)."
+  },
+  {
+   "id": "le10",
+   "area": "law-enforcement",
+   "point": "6(b)",
+   "description": "Police measure eye-tracking and pupil response while a suspect answers questions to assess truthfulness.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "6(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Polygraph-like truthfulness assessment from physiological signals."
+  },
+  {
+   "id": "le11",
+   "area": "law-enforcement",
+   "point": "6(b)",
+   "description": "Police monitor officers' own fatigue and stress via wearables for occupational health and safety.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "1(c)"
+   ],
+   "verdict_ok": false,
+   "reason_ok": false,
+   "agent_reasoning": "Infers officers' stress (an emotion) from wearable biometrics; safety use avoids the Art 5(1)(f) ban."
+  },
+  {
+   "id": "le12",
+   "area": "law-enforcement",
+   "point": "6(b)",
+   "description": "Police interview transcription that flags changes in tone or pace without judging truthfulness.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "6.3d",
+   "skill_points": [
+    "6(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": false,
+   "agent_reasoning": "Transcription that flags tone/pace changes without judging truthfulness: preparatory, 6(3)(d)."
+  },
+  {
+   "id": "le13",
+   "area": "law-enforcement",
+   "point": "6(b)",
+   "description": "Tool flags inconsistencies in how different polygraph examiners interpret similar cases.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "6.3c",
+   "skill_points": [
+    "6(b)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": false,
+   "agent_reasoning": "Consistency check of examiners' past interpretations: 6(3)(c)."
+  },
+  {
+   "id": "le14",
+   "area": "law-enforcement",
+   "point": "6(c)",
+   "description": "Police digital forensics AI detects whether images, audio or video in evidence were altered or are deepfakes.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "6(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Deepfake/alteration detection in evidence is 6(c)."
+  },
+  {
+   "id": "le15",
+   "area": "law-enforcement",
+   "point": "6(c)",
+   "description": "Police AI determines whether documents were altered or signatures forged.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "6(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Detects forged documents/signatures: authenticity of evidence."
+  },
+  {
+   "id": "le16",
+   "area": "law-enforcement",
+   "point": "6(c)",
+   "description": "Police AI checks authenticity of digital evidence from seized devices using metadata.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "6(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Assesses authenticity of digital evidence."
+  },
+  {
+   "id": "le17",
+   "area": "law-enforcement",
+   "point": "6(c)",
+   "description": "Police AI assesses the reliability of informants or witnesses from statement consistency and past accuracy.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "6(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Credibility of informants/witnesses as sources of evidence; evaluates reliability of persons."
+  },
+  {
+   "id": "le18",
+   "area": "law-enforcement",
+   "point": "6(c)",
+   "description": "Forensic image enhancement and data recovery from seized devices for human experts.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Data recovery/enhancement for experts is out of point 6."
+  },
+  {
+   "id": "le19",
+   "area": "law-enforcement",
+   "point": "6(c)",
+   "description": "Crime-scene mapping and 3D reconstruction from collected data.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Visualisation/reconstruction is out of point 6."
+  },
+  {
+   "id": "le20",
+   "area": "law-enforcement",
+   "point": "6(c)",
+   "description": "Pattern detection linking investigations with similar break-in methods.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Pattern linking of incidents is out of point 6."
+  },
+  {
+   "id": "le21",
+   "area": "law-enforcement",
+   "point": "6(c)",
+   "description": "Detection of child sexual abuse material online (flagging and filtering content).",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Content flagging/filtering is out of point 6."
+  },
+  {
+   "id": "le22",
+   "area": "law-enforcement",
+   "point": "6(c)",
+   "description": "Sorting detected child abuse material into new, already registered or deepfake groups for prioritisation.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "6(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": false,
+   "agent_reasoning": "Categorising evidence (incl. deepfake group) for prioritisation: 6(3)(a)."
+  },
+  {
+   "id": "le23",
+   "area": "law-enforcement",
+   "point": "6(c)",
+   "description": "Analysis of online sex-industry ads to flag those likely linked to trafficking.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Flags ads (content), not persons."
+  },
+  {
+   "id": "le24",
+   "area": "law-enforcement",
+   "point": "6(c)",
+   "description": "Matching ballistic markings on a bullet against a reference database.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Object matching of ballistic marks, no person-level assessment."
+  },
+  {
+   "id": "le25",
+   "area": "law-enforcement",
+   "point": "6(c)",
+   "description": "Classifying seized documents, images and videos into categories to structure evidence review.",
+   "official": "not",
+   "official_reason": "6.3a",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "6(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Classifying evidence: 6(3)(a)."
+  },
+  {
+   "id": "le26",
+   "area": "law-enforcement",
+   "point": "6(c)",
+   "description": "Indexing and tagging financial documents for later checks against bank account flows.",
+   "official": "not",
+   "official_reason": "6.3a",
+   "skill": "not",
+   "skill_reason": "6.3d",
+   "skill_points": [
+    "6(c)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Indexing/tagging evidence: 6(3)(d)."
+  },
+  {
+   "id": "le27",
+   "area": "law-enforcement",
+   "point": "6(d)",
+   "description": "Reoffending risk score used by police when processing detained youth suspects.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "6(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Reoffending risk score of a natural person."
+  },
+  {
+   "id": "le28",
+   "area": "law-enforcement",
+   "point": "6(d)",
+   "description": "Tool supporting probation officers' parole or conditional release assessments.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "6(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Supports parole/release assessment of reoffending risk."
+  },
+  {
+   "id": "le29",
+   "area": "law-enforcement",
+   "point": "6(d)",
+   "description": "Prison tool predicting an offender's reoffending from record, prison violence and socio-economic data.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "6(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Predicts an offender's reoffending."
+  },
+  {
+   "id": "le30",
+   "area": "law-enforcement",
+   "point": "6(d)",
+   "description": "Risk assessment used in criminal courts to estimate recidivism.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "6(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Recidivism risk assessment in criminal courts."
+  },
+  {
+   "id": "le31",
+   "area": "law-enforcement",
+   "point": "6(d)",
+   "description": "Prediction of burglary risk and timing in a neighbourhood, not tied to identifiable individuals.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Area-level prediction not tied to individuals."
+  },
+  {
+   "id": "le32",
+   "area": "law-enforcement",
+   "point": "6(d)",
+   "description": "Checks that probation risk assessment forms are complete and consistent.",
+   "official": "not",
+   "official_reason": "6.3a",
+   "skill": "not",
+   "skill_reason": "6.3a",
+   "skill_points": [
+    "6(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Completeness/consistency check of forms: 6(3)(a)."
+  },
+  {
+   "id": "le33",
+   "area": "law-enforcement",
+   "point": "6(d)",
+   "description": "Pre-sorting prior convictions and reports to prepare case files for officers.",
+   "official": "not",
+   "official_reason": "6.3d",
+   "skill": "not",
+   "skill_reason": "6.3d",
+   "skill_points": [
+    "6(d)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Compiling prior records into case files without evaluation: 6(3)(d)."
+  },
+  {
+   "id": "le34",
+   "area": "law-enforcement",
+   "point": "6(e)",
+   "description": "Police AI identifies potential suspects when a child goes missing, using registry and movement data.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "6(e)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Profiles persons from registry and movement data to identify suspects."
+  },
+  {
+   "id": "le35",
+   "area": "law-enforcement",
+   "point": "6(e)",
+   "description": "Police AI identifies potential suspects from witness descriptions and other personal data.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "6(e)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Profiles persons to identify suspects."
+  },
+  {
+   "id": "le36",
+   "area": "law-enforcement",
+   "point": "6(e)",
+   "description": "Targeted online monitoring that flags users for possible extremist affiliation based on posts and networks.",
+   "official": "high",
+   "official_reason": "in",
+   "skill": "high",
+   "skill_reason": "in",
+   "skill_points": [
+    "6(e)"
+   ],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Profiles users and flags them for extremist affiliation; check Art 5(1)(d)."
+  },
+  {
+   "id": "le37",
+   "area": "law-enforcement",
+   "point": "6(e)",
+   "description": "Predictive crime mapping that scores areas without profiling individuals.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Area scoring without profiling individuals."
+  },
+  {
+   "id": "le38",
+   "area": "law-enforcement",
+   "point": "6(e)",
+   "description": "Detection of suspicious transactions indicating money laundering, using transaction data only.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Transaction-level detection; not person profiling as described."
+  },
+  {
+   "id": "le39",
+   "area": "law-enforcement",
+   "point": "6(e)",
+   "description": "Crime-linkage system that groups incidents into possible series, not tied to a person.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Incident linkage not tied to a person."
+  },
+  {
+   "id": "le40",
+   "area": "law-enforcement",
+   "point": "other",
+   "description": "Police AI for case management, equipment management and patrol scheduling.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Case administration and scheduling."
+  },
+  {
+   "id": "le41",
+   "area": "law-enforcement",
+   "point": "other",
+   "description": "Chatbot on a police website providing general information.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "General information chatbot."
+  },
+  {
+   "id": "le42",
+   "area": "law-enforcement",
+   "point": "other",
+   "description": "Automated number plate readers identifying specific vehicles.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Vehicle/plate readers are out of point 6."
+  },
+  {
+   "id": "le43",
+   "area": "law-enforcement",
+   "point": "other",
+   "description": "Detection of speeding, red-light and phone-use violations by drivers.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Detects traffic violations (event/object detection), but output can lead to a fine."
+  },
+  {
+   "id": "le44",
+   "area": "law-enforcement",
+   "point": "other",
+   "description": "Detection of weapons, suspicious parcels or stolen goods in images.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Object detection."
+  },
+  {
+   "id": "le45",
+   "area": "law-enforcement",
+   "point": "other",
+   "description": "Detection of unusual behaviour or movements in video feeds.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Event-level behaviour detection, not a person-level risk assessment; but flags people for scrutiny."
+  },
+  {
+   "id": "le46",
+   "area": "law-enforcement",
+   "point": "other",
+   "description": "Real-time gunshot sound detection.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Sound detection."
+  },
+  {
+   "id": "le47",
+   "area": "law-enforcement",
+   "point": "other",
+   "description": "Customs system assessing consignments' compliance with EU law from goods data.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Goods-level compliance assessment, not natural persons."
+  },
+  {
+   "id": "le48",
+   "area": "law-enforcement",
+   "point": "other",
+   "description": "Analysis of shipping routes and consignment patterns to detect misuse of commercial transport.",
+   "official": "not",
+   "official_reason": "out",
+   "skill": "not",
+   "skill_reason": "out",
+   "skill_points": [],
+   "verdict_ok": true,
+   "reason_ok": true,
+   "agent_reasoning": "Pattern analysis of shipments, not natural persons."
+  }
+ ]
+}

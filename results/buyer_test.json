@@ -1,0 +1,60 @@
+{
+ "projects": [
+  {
+   "repo": "sliday/resume-job-matcher",
+   "url": "https://github.com/sliday/resume-job-matcher",
+   "what": "An employer screens and ranks resumes to decide who to interview",
+   "expected": "High-risk, Annex III 4(a)",
+   "skill": "High-risk, 4(a) (profiling, no exemption) + transparency",
+   "match": true,
+   "note": "match"
+  },
+  {
+   "repo": "max-fitzpatrick/Credit-scoring-model",
+   "url": "https://github.com/max-fitzpatrick/Credit-scoring-model",
+   "what": "Predicts a consumer's probability of default",
+   "expected": "High-risk, Annex III 5(b)",
+   "skill": "High-risk, 5(b)",
+   "match": true,
+   "note": "match"
+  },
+  {
+   "repo": "srbhr/Resume-Matcher",
+   "url": "https://github.com/srbhr/Resume-Matcher",
+   "what": "A job seeker tailors their own resume with an LLM",
+   "expected": "Not high-risk (candidate's own tool); transparency",
+   "skill": "Transparency (Art 50(2)), not high-risk",
+   "match": true,
+   "note": "match"
+  },
+  {
+   "repo": "mckaywrigley/chatbot-ui",
+   "url": "https://github.com/mckaywrigley/chatbot-ui",
+   "what": "Chat interface for LLMs",
+   "expected": "Transparency (Art 50(1), 50(2))",
+   "skill": "Transparency (Art 50(1), 50(2))",
+   "match": true,
+   "note": "match"
+  },
+  {
+   "repo": "kmhmubin/Face-Recognition-Attendance-System",
+   "url": "https://github.com/kmhmubin/Face-Recognition-Attendance-System",
+   "what": "Webcam face recognition marks students' attendance",
+   "expected": "Borderline: must weigh 'remote' identification (1(a)) vs people stepping up to the camera",
+   "skill": "High-risk 1(a) on the stricter reading, with the 'remote' question and the way to narrow it explained",
+   "match": true,
+   "note": "match (borderline, reasoned)"
+  },
+  {
+   "repo": "lllyasviel/Fooocus",
+   "url": "https://github.com/lllyasviel/Fooocus",
+   "what": "Image generator (SDXL) with face swap and inpainting",
+   "expected": "Transparency (Art 50(2)); mention the 2 Dec 2026 bans",
+   "skill": "v1.0.0 said 'PROHIBITED'. The law (Art 5(1a)) bans such generators only without adequate safeguards, which the agent found are off by default. v1.0.1 now says: prohibited from 2 Dec 2026 unless safeguards are added, plus Art 50 duties",
+   "match": false,
+   "note": "partial: right issue, too strong a verdict; fixed in v1.0.1"
+  }
+ ],
+ "unit_tests": 44,
+ "summary": "Every command worked the first time on all six projects; the scan took 0.1 to 3.9 seconds. 5 of 6 matched the expected answer and 1 was partly right. The buyer agent also found real problems, all fixed in v1.0.1: 'unsure' answers were not always treated strictly, the borderline note was not printed, re-running overwrote an edited documentation draft, the pre-fill counted weak evidence, and some scanner signals were noise. The Annex IV drafts started with 3 to 10 of 26 items pre-filled from the code; after the agent completed them, 12 to 21 of 26 had content and the rest needs the team."
+}
