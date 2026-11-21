@@ -8,7 +8,7 @@ Omnibus (Regulation (EU) 2026/1744): high-risk rules from 2 Dec 2027 (Annex III)
 
 > **Not legal advice.** A readiness aid that can be wrong; every report asks you to have a qualified lawyer confirm it.
 
-**[Get it on Agensi ($29) ↗](https://www.agensi.io/creators/muhammad-shahmeer)** · **[Results page ↗](https://m-shahmeer-kz.github.io/eu-ai-act-readiness-kit/)**
+**[Get it on Agensi ($29) ↗](https://www.agensi.io/skills/eu-ai-act-readiness-kit-is-your-ai-product-high-risk)** · **[Results page ↗](https://m-shahmeer-kz.github.io/eu-ai-act-readiness-kit/)**
 
 ## Tested honestly
 
